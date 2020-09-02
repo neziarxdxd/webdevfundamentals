@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-size:30pt;
+  
 }
 body,html{
     height:100%;
@@ -10,9 +10,51 @@ body,html{
     height: 100%;   
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-    filter: brightness(50%); 
-    background-image: url("background.png");
-   
-    
+    background-size:cover;  
+    background-image: url("background.png");    
 }
+.welcome-banner{    
+    padding: 10%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    color: white;   
+}
+.title-banner{
+    font-size:9vh;
+    font-family: Poppins;
+    font-weight: 700;   
+}
+.description-banner{
+    font-size:2vh;
+    font-family:Poppins;
+    font-weight: 300;
+}
+.col{    
+    width: 80%;
+    height: 100%;
+}
+.outlined-button{
+    background-color:Transparent;
+    border: 2px solid white;
+    color:white;
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+.outlined-button:hover{
+    background-color:white;
+    color: black;
+}
+
+.padding-section{
+    padding-top: 8%;
+}
+/* @media screen and (max-width:800px){
+    .col{
+        width: 100%;        
+    }
+    .title-banner{
+        font-size:10vw;
+    }
+    .description-banner{
+        font-size: 4vw;
+    }
+} */
