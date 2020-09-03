@@ -6,6 +6,7 @@
 }
 body,html{
     height:100%;
+   
 }
 .bg {
     height: 100%;   
@@ -35,10 +36,14 @@ body,html{
 }
 .outlined-button{
     background-color:Transparent;
-    border: 2px solid white;
+    border: 0.4vh solid white;
     color:white;
-    padding: 15px 50px;
-    border-radius: 10px;
+    padding: 3vh 10vh;
+    border-radius: 3vh;
+    
+    
+    font-size:2.5vh;
+    
 }
 .outlined-button:hover{
     background-color:white;
@@ -50,8 +55,22 @@ body,html{
 }
 .layout-page{
     height: 100%;
-    background: violet;
+    
 }
+.blackgray{
+    color:#0e0e0e;
+}
+.logo-card{
+    font-size:2.5vh;
+    background-color: teal;
+    width: 20%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+
+
 /* @media screen and (max-width:800px){
     .col{
         width: 100%;        
