@@ -18,15 +18,17 @@ body,html{
 .welcome-banner{    
     padding: 10%; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
-    color: white;   
+    color: white; 
+    max-width: 1024px;
+
 }
 .title-banner{
-    font-size:9vh;
+    font-size:3.5rem;
     font-family: Poppins;
     font-weight: 700;   
 }
 .description-banner{
-    font-size:2.5vh;
+    font-size:1.25rem;
     font-family:Poppins;
     font-weight: 300;
 }
@@ -49,9 +51,18 @@ body,html{
     background-color:white;
     color: black;
 }
+.container{
+            
+    margin: 0 auto;
+    padding:15px;
+    max-width: 960px;
+
+  
+}
 
 .padding-section{
     padding-top: 8%;
+    padding-bottom: 8%;
 }
 .layout-page{
     height: 100%;
@@ -70,6 +81,25 @@ body,html{
     margin-bottom: 2vh;
 }
 
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {margin: 0 }
+
+.row:after {
+    margin:0;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card{
+      background-color: blue;
+  }
+
+
 
 /* @media screen and (max-width:800px){
     .col{
@@ -82,3 +112,11 @@ body,html{
         font-size: 4vw;
     }
 } */
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 90%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
