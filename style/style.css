@@ -9,6 +9,7 @@ body,html{
    
 }
 .bg {
+
     height: 100%;   
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +53,8 @@ body,html{
     color: black;
 }
 .container{
-            
+   
+         
     margin: 0 auto;
     padding:15px;
     max-width: 960px;
@@ -83,11 +85,13 @@ body,html{
 
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
     padding: 0 10px;
 }
 
-.row {margin: 0 }
+.row {margin: 0;
+top: 50%;
+    left: 50%; }
 
 .row:after {
     margin:0;
@@ -97,6 +101,7 @@ body,html{
   }
   .card{
       background-color: blue;
+      height:300px;
   }
 
 
